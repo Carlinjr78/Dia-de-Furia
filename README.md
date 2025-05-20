@@ -9,15 +9,9 @@ Essa página foi criada como uma **homenagem oficial da comunidade**, eternizand
 
 ---
 
-## 📸 Preview
-
-![Preview do site](assets/imagem5.jpg)
-
----
-
 ## 🌐 Acesse online
 
-Você pode acessar a landing page [clicando aqui](https://seudominio.com) *(ou subir no Vercel/Netlify/GitHub Pages)*.
+Você pode acessar a landing page [clicando aqui](https://dia-de-furia.vercel.app/).
 
 ---
 
@@ -52,7 +46,7 @@ Você pode acessar a landing page [clicando aqui](https://seudominio.com) *(ou s
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuuser/dia-da-furia.git
+git clone https://github.com/Carlinjr78/Dia-de-Furia
 ```
 
 2. Abra o `index.html` com seu navegador.
@@ -71,7 +65,6 @@ code .
 ## 📱 Responsividade
 
 ✔️ Layout adaptado para mobile  
-✔️ Carrossel responsivo  
 ✔️ Seção explicativa reorganizada em telas pequenas
 
 ---
@@ -79,20 +72,14 @@ code .
 ## ✍️ Contribuição
 
 Esse projeto foi idealizado e desenvolvido por **Carlos Alberto**, membro da comunidade apaixonado por tecnologia e pela FURIA.  
-Contribuições e melhorias visuais são bem-vindas!
 
----
-
-## 🏁 Licença
-
-MIT — uso livre com créditos ao autor.
 
 ---
 
 ## 🔗 Contato
 
-- Instagram: [@carlinjr78](https://instagram.com/carlinjr78)
-- GitHub: [github.com/seuuser](https://github.com/seuuser)
+- Linkedln: [@carlos](https://www.linkedin.com/in/carlosjr78/)
+- GitHub: [github.com/carlinjr78](https://github.com/Carlinjr78)
 
 ---
 
