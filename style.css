@@ -165,11 +165,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2rem 1rem;
   }
 
-  .explicacao img {
-    max-width: 100%;
-    margin-bottom: 1.5rem;
-    align-self: center;
-  }
+ .explicacao img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  align-self: center;
+}
 
   .explicacao-text {
     font-size: 1.2rem;
