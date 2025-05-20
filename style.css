@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #fff;
@@ -47,42 +52,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/* Seção Hero (não está mais usada, mas mantida para referência) */
-.hero {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  text-align: center;
-}
-
-.hero-image {
-  width: 100%;
-  max-height: 600px;
-  object-fit: cover;
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-  background: rgba(0, 0, 0, 0.3);
-  padding: 1rem 2rem;
-  border-radius: 10px;
-}
-
-.hero-text h1 {
-  font-size: 3rem;
-}
-
-.hero-text p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-}
-
 /* Seção Explicação */
 .explicacao {
   background-color: #000;
@@ -108,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1 1 50%;
   max-width: 700px;
   font-size: 2rem;
-  
 }
 
 .explicacao p {
@@ -188,10 +156,3 @@ h1, h2, h3, h4, h5, h6 {
   76%  { transform: translateX(-200%); }
   100% { transform: translateX(-200%); }
 }
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-
