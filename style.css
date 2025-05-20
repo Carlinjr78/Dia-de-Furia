@@ -156,3 +156,51 @@ h1, h2, h3, h4, h5, h6 {
   76%  { transform: translateX(-200%); }
   100% { transform: translateX(-200%); }
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .explicacao {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .explicacao img {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    align-self: center;
+  }
+
+  .explicacao-text {
+    font-size: 1.2rem;
+    padding-left: 0;
+  }
+
+  .explicacao-text p {
+    font-size: 1rem;
+  }
+
+  .logo-central {
+    height: 24px;
+  }
+
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .post iframe {
+    height: 400px;
+  }
+
+  .main-header {
+    padding: 0.8rem 0;
+  }
+
+  .page-wrapper {
+    padding-top: 64px; /* ajuste pro header menor */
+  }
+}
