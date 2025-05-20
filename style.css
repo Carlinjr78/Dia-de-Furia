@@ -1,0 +1,169 @@
+/* Reset e Configurações Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Seção Hero (não está mais usada, mas mantida para referência) */
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Seção Explicação */
+.explicacao {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.explicacao img {
+  flex: 1 1 45%;
+  max-width: 400px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.explicacao-text {
+  flex: 1 1 55%;
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+
+.explicacao p {
+  font-size: 1.1rem;
+}
+
+.explicacao-wrapper {
+  background-color: #000;
+  width: 100%;
+}
+
+
+/* Seção de Posts (Instagram) */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.post iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post iframe:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Rodapé */
+.main-footer {
+  background-color: #fafafa;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Carrossel */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.carousel-container {
+  display: flex;
+  width: 50%;
+  animation: slide 15s infinite;
+}
+
+.carousel-slide {
+  flex: 1 0 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Animação do Carrossel */
+@keyframes slide {
+  0%   { transform: translateX(0%); }
+  33%  { transform: translateX(0%); }
+  38%  { transform: translateX(-100%); }
+  71%  { transform: translateX(-100%); }
+  76%  { transform: translateX(-200%); }
+  100% { transform: translateX(-200%); }
+}
