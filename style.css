@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
 }
 
+.page-wrapper {
+  padding-top: 80px; /* compensa o cabeçalho fixo */
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Anton', sans-serif;
   text-align: center;
@@ -22,6 +26,23 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
+}
+
+/* Cabeçalho fixo com logo centralizada */
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF
+;
+  padding: 1rem 0;
+  z-index: 100;
+  text-align: center;
+}
+
+.logo-central {
+  height: 30px;
+  object-fit: contain;
 }
 
 /* Seção Hero (não está mais usada, mas mantida para referência) */
@@ -87,7 +108,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
 }
 
-
 .explicacao p {
   font-size: 1.1rem;
 }
@@ -96,7 +116,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000;
   width: 100%;
 }
-
 
 /* Seção de Posts (Instagram) */
 .posts-grid {
@@ -120,8 +139,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.01);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
-
-
 
 /* Rodapé */
 .main-footer {
@@ -148,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-slide {
-  flex: 1 0 100%;
+  flex: 0 0 100%;
 }
 
 .carousel-slide img {
