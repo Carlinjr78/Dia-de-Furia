@@ -13,11 +13,11 @@ body {
 }
 
 .page-wrapper {
-  padding-top: 80px; /* compensa o cabeçalho fixo */
+  padding-top: 80px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Helvetica World', Montserrat, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -33,16 +33,18 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #FFFFFF
-;
+  background-color: #FFFFFF;
   padding: 1rem 0;
-  z-index: 100;
-  text-align: center;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-central {
-  height: 30px;
+  height: 32px;
   object-fit: contain;
+  display: block;
 }
 
 /* Seção Hero (não está mais usada, mas mantida para referência) */
