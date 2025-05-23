@@ -90,6 +90,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+
+
 /* Seção de Posts (Instagram) */
 .posts-grid {
   display: grid;
@@ -187,6 +189,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
+/* Alinhanhdo a esquerda os titulos*/
+.kl-text h4,
+.r6-text h5,
+.rocket-text h5,
+.explicacao-text h2 {
+  text-align: left;
+}
+
 
 /* Rodapé */
 .main-footer {
@@ -236,30 +246,54 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
-  .explicacao {
+  
+  /* Layout geral das seções */
+  .explicacao,
+  .explicacao-kl,
+  .explicacao-rocket,
+  .explicacao-r6 {
     flex-direction: column;
     text-align: center;
+    align-items: center;
     padding: 2rem 1rem;
   }
-
- .explicacao img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin-bottom: 1.5rem;
-  align-self: center;
+/* Alinhanhdo a esquerda os titulos*/
+.kl-text h4,
+.r6-text h5,
+.rocket-text h5,
+.explicacao-text h2 {
+  text-align: center;
 }
-
-  .explicacao-text {
-    font-size: 1.2rem;
-    padding-left: 0;
+  /* Imagens das seções */
+  .explicacao img,
+  .explicacao-kl img,
+  .explicacao-rocket img,
+  .explicacao-r6 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    align-self: center;
   }
 
-  .explicacao-text p {
+  /* Texto das seções */
+  .explicacao-text,
+  .kl-text,
+  .r6-text,
+  .rocket-text {
+    font-size: 1.2rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .explicacao-text p,
+  .kl-text p,
+  .r6-text p,
+  .rocket-text p {
     font-size: 1rem;
   }
 
-
+  /* Outros ajustes gerais */
   .logo-central {
     height: 24px;
   }
@@ -282,37 +316,5 @@ h1, h2, h3, h4, h5, h6 {
 
   .page-wrapper {
     padding-top: 64px; /* ajuste pro header menor */
-  }
-}
-@media (max-width: 768px) {
-  .explicacao-kl,
-  .explicacao-rocket,
-  .explicacao-r6 {
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-
-  .explicacao-kl img,
-  .explicacao-rocket img,
-  .explicacao-r6 img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 1.5rem;
-    align-self: center;
-  }
-
-  .kl-text,
-  .r6-text,
-  .rocket-text {
-    font-size: 1.2rem;
-    padding-left: 0;
-  }
-
-  .kl-text p,
-  .r6-text p,
-  .rocket-text p {
-    font-size: 1rem;
   }
 }
