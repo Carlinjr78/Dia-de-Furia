@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
+
+
 .explicacao img {
   flex: 1 1 50%;
   max-width: 400px;
@@ -110,6 +112,81 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.01);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
+
+/* Seções específicas - Kings, R6 e Rocket League */
+.explicacao-kl,
+.explicacao-rocket {
+  background-color: #000;
+  color: #fff;
+}
+
+.explicacao-rainbow {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.explicacao-kl .kl-text,
+.explicacao-r6 .r6-text,
+.explicacao-rocket .rocket-text {
+  flex: 1 1 50%;
+  max-width: 700px;
+  font-size: 1.4rem;
+}
+
+.explicacao-kl img,
+.explicacao-r6 img,
+.explicacao-rocket img {
+  flex: 1 1 50%;
+  max-width: 400px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.explicacao-kl h4,
+.explicacao-rocket h5 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.explicacao-r6 h5 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #000;
+}
+
+.kl-text p,
+.r6-text p,
+.rocket-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Texto dos parágrafos */
+.kl-text p,
+.r6-text p,
+.rocket-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Correção específica para o texto da seção R6 */
+.explicacao-r6 .r6-text {
+  color: #FFFFFF;
+}
+
+.explicacao-r6 .r6-text p {
+  color: #000;
+}
+
 
 /* Rodapé */
 .main-footer {
@@ -182,6 +259,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
   }
 
+
   .logo-central {
     height: 24px;
   }
@@ -204,5 +282,37 @@ h1, h2, h3, h4, h5, h6 {
 
   .page-wrapper {
     padding-top: 64px; /* ajuste pro header menor */
+  }
+}
+@media (max-width: 768px) {
+  .explicacao-kl,
+  .explicacao-rocket,
+  .explicacao-r6 {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .explicacao-kl img,
+  .explicacao-rocket img,
+  .explicacao-r6 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    align-self: center;
+  }
+
+  .kl-text,
+  .r6-text,
+  .rocket-text {
+    font-size: 1.2rem;
+    padding-left: 0;
+  }
+
+  .kl-text p,
+  .r6-text p,
+  .rocket-text p {
+    font-size: 1rem;
   }
 }
