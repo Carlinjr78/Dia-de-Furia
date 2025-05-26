@@ -248,14 +248,62 @@ h6 {
 }
 
 
-/* Rodapé */
+/* Estilo do rodapé */
 .main-footer {
   background-color: #fafafa;
-  padding: 2rem 1rem;
+  color: #999;
+  padding: 20px 0;
   text-align: center;
-  color: #666;
-  font-size: 0.9rem;
-  border-top: 1px solid #e0e0e0;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-grid > div {
+  flex: 1 1 250px;
+}
+
+.footer-grid h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: rgb(0, 24, 26)
+}
+
+.footer-grid p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social ul li {
+  margin-bottom: 6px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #999;
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;
 }
 
 /* Carrossel */
@@ -342,7 +390,12 @@ h6 {
   .rocket-text p {
     font-size: 1rem;
   }
-
+  /* rodape */
+    .footer-grid {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
   /* Outros ajustes gerais */
   .logo-central {
     height: 24px;
