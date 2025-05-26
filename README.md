@@ -1,11 +1,11 @@
-# 🦁 Dia da FURIA — 18/05 Histórico
+# 🐾 Dia da FURIA — 18/05 Histórico
 
 No dia 18 de maio de 2025, a FURIA Esports fez história ao conquistar **três grandes títulos em um único dia**:  
 🏆 Kings League Brazil  
 🏆 RE:L0:AD 2025 (Rainbow Six Siege)  
 🏆 RLCS (Rocket League Championship Series)
 
-Essa página foi criada como uma **homenagem oficial da comunidade**, eternizando esse feito com o impacto visual que ele merece.
+Essa página foi criada como uma **homenagem oficial**, eternizando esse feito com o impacto visual que ele merece.
 
 ---
 
