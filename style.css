@@ -392,8 +392,8 @@ h6 {
   }
   /* rodape */
     .footer-grid {
-    flex-direction: column;
-    gap: 30px;
+    flex-direction:row;
+    gap: 0px;
     text-align: center;
   }
   /* Outros ajustes gerais */
